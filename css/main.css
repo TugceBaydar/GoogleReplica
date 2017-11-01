@@ -174,3 +174,42 @@ div.bottom ul.right li a {
   letter-spacing: 0.1px;
   font-size: 14px;
 }
+
+
+@media (max-width: 426px) {
+
+   * {
+		 font-size: 12px;
+	 }
+
+	.profile_img {
+		display: none;
+	}
+
+	ul.nav {
+		margin-right: 0;
+	}
+
+	ul.nav li {
+		margin-right: 0;
+	}
+}
+
+@media (max-width: 620px) {
+	div.searchBox input {
+		width:70%;
+	}
+}
+
+@media (max-width: 526px) {
+
+	.right {
+		display: none;
+	}
+
+	.left {
+		margin: 10px auto;
+		width: 60%;
+		float: none;
+	}
+}
